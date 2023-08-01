@@ -1,0 +1,7 @@
+set title 'Best Case Merge Plot'
+set xrange [0:1200]
+set yrange [0:20000]
+set xlabel 'Input'
+set ylabel 'Count'
+set style data linespoints
+plot 'quick_time.txt' u 1:2 w lp
