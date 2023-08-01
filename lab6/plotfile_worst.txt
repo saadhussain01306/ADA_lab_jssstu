@@ -1,4 +1,4 @@
-set title 'Worst Case Merge Plot'
+set title 'Worst Case Quick Sort'
 set xrange [0:1000]
 set yrange [10:500000]
 set xlabel 'Input'
