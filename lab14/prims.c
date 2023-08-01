@@ -51,15 +51,17 @@ void main()
     printf("Minimum Cost: %d\n", min_cost);
 }
 
-// OUTPUT
-// Enter the number of vertices : 5 Enter cost matrix:
-// 0 0 3 0 0
-// 0 0 10 4 0
-// 3 10 0 2 6
-// 0 4 2 0 1
-// 0 0 6 1 0
-// A-->C | Cost: 3
-// C-->D | Cost: 2
-// D-->E | Cost: 1
-// D-->B | Cost: 4
-// Minimum Cost: 10
+/*output
+Enter the number of vertices: 5
+Enter cost matrix:
+0 0 3 0 0
+0 0 10 4 0
+3 10 0 2 6
+0 4 2 0 1
+0 0 6 1 0
+A-->C | Cost: 3
+C-->D | Cost: 2
+D-->E | Cost: 1
+D-->B | Cost: 4
+Minimum Cost: 10
+    */
