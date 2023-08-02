@@ -1,0 +1,133 @@
+Enter the number of nodes
+4
+Enter the graph
+0 1 1 0
+0 0 1 0
+1 0 0 1
+0 0 0 0
+Enter the source vertex
+1
+Graph Traversal
+-->B -->C -->A -->D 
+Graph is connected
+Graph is cyclic
+
+Graph is
+0	1	0	0	
+1	0	1	0	
+0	1	0	1	
+0	0	1	0	
+
+Graph: -->A -->B -->C -->D 
+Graph is connected
+Graph is acyclic
+
+Graph is
+0	1	1	1	
+1	0	1	1	
+1	1	0	1	
+1	1	1	0	
+
+Graph: -->A -->B -->C -->D 
+Graph is connected
+Graph is cyclic
+
+Graph is
+0	1	0	0	0	
+1	0	1	0	0	
+0	1	0	1	0	
+0	0	1	0	1	
+0	0	0	1	0	
+
+Graph: -->A -->B -->C -->D -->E 
+Graph is connected
+Graph is acyclic
+
+Graph is
+0	1	1	1	1	
+1	0	1	1	1	
+1	1	0	1	1	
+1	1	1	0	1	
+1	1	1	1	0	
+
+Graph: -->A -->B -->C -->D -->E 
+Graph is connected
+Graph is cyclic
+
+Graph is
+0	1	0	0	0	0	
+1	0	1	0	0	0	
+0	1	0	1	0	0	
+0	0	1	0	1	0	
+0	0	0	1	0	1	
+0	0	0	0	1	0	
+
+Graph: -->A -->B -->C -->D -->E -->F 
+Graph is connected
+Graph is acyclic
+
+Graph is
+0	1	1	1	1	1	
+1	0	1	1	1	1	
+1	1	0	1	1	1	
+1	1	1	0	1	1	
+1	1	1	1	0	1	
+1	1	1	1	1	0	
+
+Graph: -->A -->B -->C -->D -->E -->F 
+Graph is connected
+Graph is cyclic
+
+Graph is
+0	1	0	0	0	0	0	
+1	0	1	0	0	0	0	
+0	1	0	1	0	0	0	
+0	0	1	0	1	0	0	
+0	0	0	1	0	1	0	
+0	0	0	0	1	0	1	
+0	0	0	0	0	1	0	
+
+Graph: -->A -->B -->C -->D -->E -->F -->G 
+Graph is connected
+Graph is acyclic
+
+Graph is
+0	1	1	1	1	1	1	
+1	0	1	1	1	1	1	
+1	1	0	1	1	1	1	
+1	1	1	0	1	1	1	
+1	1	1	1	0	1	1	
+1	1	1	1	1	0	1	
+1	1	1	1	1	1	0	
+
+Graph: -->A -->B -->C -->D -->E -->F -->G 
+Graph is connected
+Graph is cyclic
+
+Graph is
+0	1	0	0	0	0	0	0	
+1	0	1	0	0	0	0	0	
+0	1	0	1	0	0	0	0	
+0	0	1	0	1	0	0	0	
+0	0	0	1	0	1	0	0	
+0	0	0	0	1	0	1	0	
+0	0	0	0	0	1	0	1	
+0	0	0	0	0	0	1	0	
+
+Graph: -->A -->B -->C -->D -->E -->F -->G -->H 
+Graph is connected
+Graph is acyclic
+
+Graph is
+0	1	1	1	1	1	1	1	
+1	0	1	1	1	1	1	1	
+1	1	0	1	1	1	1	1	
+1	1	1	0	1	1	1	1	
+1	1	1	1	0	1	1	1	
+1	1	1	1	1	0	1	1	
+1	1	1	1	1	1	0	1	
+1	1	1	1	1	1	1	0	
+
+Graph: -->A -->B -->C -->D -->E -->F -->G -->H 
+Graph is connected
+Graph is cyclic
