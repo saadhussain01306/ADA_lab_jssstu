@@ -1,0 +1,3 @@
+cat prims.dat
+5	24
+run four starting with 4 to update the prims.dat file
