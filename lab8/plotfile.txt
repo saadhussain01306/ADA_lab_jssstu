@@ -1,0 +1,7 @@
+set title "bfs connectivity checking"
+set xrange[4:10]
+set yrange[0:100]
+set xlabel "Number Of vertices"
+set ylabel "Count"
+set style data linespoints
+plot "bfs.dat" u 1:2 w lp,"bfs.dat" u 1:3 w lp
