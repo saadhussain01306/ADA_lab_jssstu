@@ -1,0 +1,163 @@
+Enter the number of nodes
+4
+Enter the graph
+0 1 1 0
+0 0 1 0
+1 0 0 1
+0 0 0 0
+Enter the source vertex
+1
+Graph Traversal
+1--> 2--> 0--> 3--> 
+Graph is connected
+Graph is cyclic
+
+Best case:
+
+Graph is
+0	1	0	0	
+1	0	1	0	
+0	1	0	1	
+0	0	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 
+Graph is connected
+Graph is acyclic
+
+
+Worst case:
+Graph is
+0	1	1	1	
+1	0	1	1	
+1	1	0	1	
+1	1	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 
+Graph is connected
+Graph is cyclic
+
+Best case:
+
+Graph is
+0	1	0	0	0	
+1	0	1	0	0	
+0	1	0	1	0	
+0	0	1	0	1	
+0	0	0	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 
+Graph is connected
+Graph is acyclic
+
+
+Worst case:
+Graph is
+0	1	1	1	1	
+1	0	1	1	1	
+1	1	0	1	1	
+1	1	1	0	1	
+1	1	1	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 
+Graph is connected
+Graph is cyclic
+
+Best case:
+
+Graph is
+0	1	0	0	0	0	
+1	0	1	0	0	0	
+0	1	0	1	0	0	
+0	0	1	0	1	0	
+0	0	0	1	0	1	
+0	0	0	0	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 5--> 
+Graph is connected
+Graph is acyclic
+
+
+Worst case:
+Graph is
+0	1	1	1	1	1	
+1	0	1	1	1	1	
+1	1	0	1	1	1	
+1	1	1	0	1	1	
+1	1	1	1	0	1	
+1	1	1	1	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 5--> 
+Graph is connected
+Graph is cyclic
+
+Best case:
+
+Graph is
+0	1	0	0	0	0	0	
+1	0	1	0	0	0	0	
+0	1	0	1	0	0	0	
+0	0	1	0	1	0	0	
+0	0	0	1	0	1	0	
+0	0	0	0	1	0	1	
+0	0	0	0	0	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 5--> 6--> 
+Graph is connected
+Graph is acyclic
+
+
+Worst case:
+Graph is
+0	1	1	1	1	1	1	
+1	0	1	1	1	1	1	
+1	1	0	1	1	1	1	
+1	1	1	0	1	1	1	
+1	1	1	1	0	1	1	
+1	1	1	1	1	0	1	
+1	1	1	1	1	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 5--> 6--> 
+Graph is connected
+Graph is cyclic
+
+Best case:
+
+Graph is
+0	1	0	0	0	0	0	0	
+1	0	1	0	0	0	0	0	
+0	1	0	1	0	0	0	0	
+0	0	1	0	1	0	0	0	
+0	0	0	1	0	1	0	0	
+0	0	0	0	1	0	1	0	
+0	0	0	0	0	1	0	1	
+0	0	0	0	0	0	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 5--> 6--> 7--> 
+Graph is connected
+Graph is acyclic
+
+
+Worst case:
+Graph is
+0	1	1	1	1	1	1	1	
+1	0	1	1	1	1	1	1	
+1	1	0	1	1	1	1	1	
+1	1	1	0	1	1	1	1	
+1	1	1	1	0	1	1	1	
+1	1	1	1	1	0	1	1	
+1	1	1	1	1	1	0	1	
+1	1	1	1	1	1	1	0	
+
+
+Graph: 0--> 1--> 2--> 3--> 4--> 5--> 6--> 7--> 
+Graph is connected
+Graph is cyclic
