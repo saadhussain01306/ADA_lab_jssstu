@@ -44,7 +44,7 @@ void main()
 {
     int n;
     srand(time(NULL));
-    FILE *fp = fopen("heap2.dat", "a");
+    FILE *fp = fopen("heap.dat", "a");
     int *a = NULL;
     for (n = 10; n <= 100; n += 10)
     {
