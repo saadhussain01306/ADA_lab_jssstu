@@ -1,0 +1,7 @@
+set title "Heap Sort"
+set xrange[10:100]
+set yrange[10:1000]
+set xlabel "Number Of Elements(n)"
+set ylabel "Count"
+set style data linespoints
+plot 'heap.dat' u 1:2 w lp,'heap.dat' u 1:3 w lp
