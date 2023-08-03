@@ -32,9 +32,9 @@ int inDegree(int ind, int n)
 {
     int indegree = 0;
     for (int i = 0; i < n; i++){
-            
+            cnt++;
         if (graph[i][ind] == 1){
-            indegree++;cnt++;
+            indegree++;
             }
             }
     return indegree;
@@ -50,7 +50,7 @@ void topo(int n)
         
         if (in[i] == 0){
             enqueue(i);
-            cnt++;
+            
             }
     }
 
@@ -77,7 +77,7 @@ void topo(int n)
                 
                 if (in[i] == 0){
                     enqueue(i);
-                    cnt++;
+                    
                     
                     }
             }
@@ -101,7 +101,8 @@ void main()
     topo(n);
     printf("the basic operation count for the given %d vertces matrix is %d\n",n,cnt);
 }
-/*Enter the number of nodes in the graph:
+/*output:-
+Enter the number of nodes in the graph:
 10
 
 Enter the adjacency matrix:
@@ -115,20 +116,16 @@ Enter the adjacency matrix:
 0 0 0 1 1 0 0 0 1 1
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
--->A-->F-->B-->G-->C-->H-->D-->E-->I-->Jthe basic operation count for the given 10 vertces matrix is 34
-*/
-/*
-// Enter the number of nodes in the graph:
-// 8
+-->A-->F-->B-->G-->C-->H-->D-->E-->I-->Jthe basic operation count for the given 10 vertces matrix is 100
 
-// Enter the adjacency matrix:
-// 0 0 0 1 0 0 0 0
-// 1 0 0 1 0 0 0 0
-// 0 0 0 0 0 0 0 0
-// 0 0 1 0 1 0 0 0
-// 0 0 0 0 0 0 0 0
-// 0 0 0 0 1 0 0 0
-// 0 0 0 1 0 1 0 0
-// 0 0 0 0 0 1 0 0
-// -->B-->G-->H-->A-->F-->D-->C-->E
+Enter the number of nodes in the graph:
+5
+
+Enter the adjacency matrix:
+0 1 1 0 0
+0 0 1 1 0
+0 0 0 1 1
+0 0 0 0 0
+0 0 0 0 0
+-->A-->B-->C-->D-->Ethe basic operation count for the given 5 vertces matrix is 25
 */
