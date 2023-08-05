@@ -1,5 +1,5 @@
 # ADA_new
-design and analysis of algorithm lab SJCE
+design and analysis of algorithm lab @SJCE :) 
 
 List of Programs
 1) Implement Euclid’s, Consecutive integer checking and Modified Euclid’s algorithms
